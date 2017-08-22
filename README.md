@@ -1,4 +1,4 @@
-# :rotating_light: Planning a Red Team :fire: :fire_engine:
+# :rotating_light: Planning a Red Team exercise :fire: :fire_engine:
 This document helps inform your red team plans by contrasting your opinions against the very specific method described in [Red Teams](https://medium.com/starting-up-security/red-teams-6faa8d95f602). This method expresses several biases to optimize for blue team value and enthusiasm instead of motivation by red team punishment.
 
 Review the questions below to test if your red team planning has been thoroughly thought out for your blue team's value.
@@ -16,14 +16,14 @@ You can project the amount of time to allocate from this planning phase, to the 
 - *Long Term Mitigation* (Weeks / Months): Completion of harder lessons learned, refactoring, and growth before you consider the next red team.
 
 ### People
-Identify all the people who may need to know the Red Team's plans and secrets. This is where you'll want to mitigate any "Break Glass" risk, and have contact details ready for a pivot away from an exercise.
+Identify all the people who may need to know the Red Team's plans and secrets. This is where you'll want to mitigate any "Break Glass" risk, and have contact details ready for a pivot away from an exercise due to any emergencies.
 - Consulting firms: Will you be hiring an external party as the red team?
 - Internal resources: Will internal employees act as the red team?
 - Who is responsible for (in this case, withholding) a call to the police?
 - Who is responsible for inbound PR / Communications?
 - Who is responsible for customer interactions?
 - Who is the breach notification resource? (in-house / outside counsel)
-- Who is the overall "Game Master" that will steer issues?
+- Who is the overall "Game Master" that will steer issues and be the ultimate source of good judgement?
 
 ### Strategy
 Decide where you are going to accumulate your value from this experience. There are tradeoffs everywhere that may not scratch what you're trying to itch with an exercise.
@@ -40,6 +40,8 @@ Decide where you are going to accumulate your value from this experience. There 
 - Has a specific [method](https://attack.mitre.org/wiki/Main_Page) or realistic "kill chain" been selected to frame the exercise?
 - Is your goal to simulate an incident in a heavily mitigated risk, or a risk with much less telemetry / preventative measures?
 - During each phase, what is the "break glass"? How do you announce widely what the truth is, and what needs to happen next, in case a red team goes awry and causes an outage?
+- Under what circumstances do you want to "call off" the red team?
+  - Consider when it is naturally complete, outside interference requires a shut down, or when the experience is no longer valuable for participants.
 
 ### Attack Design
 An attack represents the risks you're trying to mitigate, the incident you're trying to handle, or the individuals you're hoping to include on the response. These decisions all have planning burdens that are helpful to identify as early as possible.
@@ -65,7 +67,7 @@ If you can foresee how disciplined your responders will behave, you can manipula
 - Are short term mitigations / long term preventative measures being collected as part of your incident response?
 
 ### Red Team Reveal
-The Blue Team will have all kinds of questions for the red team, and keeping this relationship healthy is critical. The red team should be viewed as an invaluable sparring partner. Better yet, a rabbit to chase.
+The Blue Team will have all kinds of questions for the red team. This can be a moment of excitement if done correctly. Keeping this relationship healthy is critical. The red team should be viewed as an invaluable sparring partner. Better yet, a rabbit to chase.
 - Are the Red Team's actions during the attack phase very well documented and understood?
 - Has the incident response process missed any substantial Red Team actions?
 - Are there any IOC's or artifacts that are still beaconing or discoverable in the future?
@@ -73,7 +75,7 @@ The Blue Team will have all kinds of questions for the red team, and keeping thi
 - How thorough was the Blue Team's investigation and containment?
 
 ### Post Mortem
-A high quality post mortem will inform months of roadmapped security work, and calibrate everyone on a mission through a shared experience.
+A high quality post mortem will inform months of roadmap'd security work, and calibrate everyone on a mission through a shared experience.
 - Has a thorough interviewing process or debrief happened with all participants in the exercise?
 - Have all follow up mitigation items been collected centrally and prioritized based on the value sentiment of the participants?
 - Are these sentiments being concluded and presented back to the participants?
