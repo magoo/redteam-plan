@@ -3,7 +3,7 @@ This document helps inform your red team plans by contrasting your opinions agai
 
 Review the questions below to test if your red team planning has been thoroughly thought out for your blue team's value.
 
-### Time
+### :date: Time
 You can project the amount of time to allocate from this planning phase, to the end of a mitigation phase, or something in between. Time expectations are highly dependent on decisions made for each phase.
 
 - *Planning* (Weeks/Months): Planning the overall execution, filling in the gaps of this document.
@@ -15,7 +15,7 @@ You can project the amount of time to allocate from this planning phase, to the 
 - *Incident Response (Post Mortem)* (Hours / Days): Organization of the lessons learned and wide presentation.
 - *Long Term Mitigation* (Weeks / Months): Completion of harder lessons learned, refactoring, and growth before you consider the next red team.
 
-### People
+### :family: People
 Identify all the people who may need to know the Red Team's plans and secrets. This is where you'll want to mitigate any "Break Glass" risk, and have contact details ready for a pivot away from an exercise due to any emergencies.
 - Consulting firms: Will you be hiring an external party as the red team?
 - Internal resources: Will internal employees act as the red team?
@@ -25,7 +25,7 @@ Identify all the people who may need to know the Red Team's plans and secrets. T
 - Who is the breach notification resource? (in-house / outside counsel)
 - Who is the overall "Game Master" that will steer issues and be the ultimate source of good judgement?
 
-### Strategy
+### :chart_with_downwards_trend: Strategy
 Decide where you are going to accumulate your value from this experience. There are tradeoffs everywhere that may not scratch what you're trying to itch with an exercise.
 - Are potential defenders aware that a red team should be expected at some point?
   - Should they be? Do you need to set this expectation?
@@ -43,7 +43,7 @@ Decide where you are going to accumulate your value from this experience. There 
 - Under what circumstances do you want to "call off" the red team?
   - Consider when it is naturally complete, outside interference requires a shut down, or when the experience is no longer valuable for participants.
 
-### Attack Design
+### :wrench: Attack Design
 An attack represents the risks you're trying to mitigate, the incident you're trying to handle, or the individuals you're hoping to include on the response. These decisions all have planning burdens that are helpful to identify as early as possible.
 - Does the attack actually need a lot of expertise and effort, or can you have simple recreations of an attack to discover? Are external parties even necessary?
 - Where should the attack begin in the kill chain? (IE, early: spear phishing, or late: lateral movement with domain admin)
@@ -54,7 +54,7 @@ An attack represents the risks you're trying to mitigate, the incident you're tr
 - Where and how will the red team be documenting their behaviors? These need to be captured for any follow up tabletop and to confirm remediation and lesson learned. Can you collect a bash history? A TCP dump? Manual notes?
 - Are the Red Team's methods going to be based in reality? Are they using methods that are not available to a realistic attacker?
 
-### Incident Response
+### :rotating_light: Incident Response
 If you can foresee how disciplined your responders will behave, you can manipulate the response to either discover friction or enforce and encourage the correct behaviors.
 - Is there a specific coordination method or plan that incident response should follow? For instance, the agenda and method described in [Security Breach 101](https://medium.com/starting-up-security/security-breach-101-b0f7897c027c) or [An Incident Response Plan for Startups](https://github.com/magoo/Incident-Response-Plan/blob/master/EXAMPLE.md)
 - Will Incident Response need to come together naturally, so you can to weed out friction in its process?
@@ -66,7 +66,7 @@ If you can foresee how disciplined your responders will behave, you can manipula
   - Will this be done in a tabletop format?
 - Are short term mitigations / long term preventative measures being collected as part of your incident response?
 
-### Red Team Reveal
+### :mag: Red Team Reveal
 The Blue Team will have all kinds of questions for the red team. This can be a moment of excitement if done correctly. Keeping this relationship healthy is critical. The red team should be viewed as an invaluable sparring partner. Better yet, a rabbit to chase.
 - Are the Red Team's actions during the attack phase very well documented and understood?
 - Has the incident response process missed any substantial Red Team actions?
@@ -74,7 +74,7 @@ The Blue Team will have all kinds of questions for the red team. This can be a m
 - Have any backdoors or other at risk changes survived incident response?
 - How thorough was the Blue Team's investigation and containment?
 
-### Post Mortem
+### :skull: Post Mortem
 A high quality post mortem will inform months of roadmap'd security work, and calibrate everyone on a mission through a shared experience.
 - Has a thorough interviewing process or debrief happened with all participants in the exercise?
 - Have all follow up mitigation items been collected centrally and prioritized based on the value sentiment of the participants?
