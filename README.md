@@ -85,3 +85,12 @@ A high quality post mortem will inform months of roadmap'd security work, and ca
 - Are participants being rewarded for participating?
 - Are they given plenty of time to debrief and discuss?
 - Is this a valuable calibration towards practical risks?
+
+## :baby: Small Exercises
+You can keep an exercise small and with minimal involvement of others. Be creative.
+
+Simply have a team member simulate an incident that you think you could successfully respond to. For instance, you can install a piece of software that has auto-update functionality, and pretend it is malware. Then you'd "hunt" for the "C&C" which would just be its update beacon.
+
+Or, have a team member make an "unauthorized change", and pull together an "incident" that proves they are guilty and did not make other changes.
+
+Just be sure to document your findings, your lessons, and your follow ups to present to others. Red teams are not valuable if their lessons are isolated.
