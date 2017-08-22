@@ -1,4 +1,4 @@
-# Red Team Planning :fire: :fire_engine:
+# :rotating_light: Planning a Red Team :fire: :fire_engine:
 This document helps inform your red team plans by contrasting your opinions against the very specific method described in [Red Teams](https://medium.com/starting-up-security/red-teams-6faa8d95f602). This method expresses several biases to optimize for blue team value and enthusiasm instead of motivation by red team punishment.
 
 Review the questions below to test if your red team planning has been thoroughly thought out for your blue team's value.
@@ -27,8 +27,8 @@ Identify all the people who may need to know the Red Team's plans and secrets. T
 
 ### Strategy
 Decide where you are going to accumulate your value from this experience. There are tradeoffs everywhere that may not scratch what you're trying to itch with an exercise.
-- Are potential defenders aware that a red team is expected, ever?
-  - Should they be?
+- Are potential defenders aware that a red team should be expected at some point?
+  - Should they be? Do you need to set this expectation?
 - Will you also announce a window in which a red team should be expected?
   - Will this cause healthy excitement and a preparation sprint?
 - Will the attackers be heavily guided with cheating, or will it be freeform?
@@ -37,12 +37,12 @@ Decide where you are going to accumulate your value from this experience. There 
   - You want to avoid any feeling that this is a punishment for bad security.
 - Has the team been informed that this is meant to be a gift to a blue team, not to punish bad security? IE, this is not a test, this is sparring?
   - Doubling down on this point. Make sure it's known that this is a valuable feedback loop, not an employee performance cycle.
-- Has a specific [method](https://attack.mitre.org/wiki/Main_Page) or probably "kill chain" been selected to start from? Is it a practical risk?
+- Has a specific [method](https://attack.mitre.org/wiki/Main_Page) or realistic "kill chain" been selected to frame the exercise?
 - Is your goal to simulate an incident in a heavily mitigated risk, or a risk with much less telemetry / preventative measures?
 - During each phase, what is the "break glass"? How do you announce widely what the truth is, and what needs to happen next, in case a red team goes awry and causes an outage?
 
 ### Attack Design
-An attack both represents the risks you're trying to mitigate, the incident you're trying to handle, or the individuals you're hoping to include on the response. These decisions all have planning burdens that are helpful to identify as early as possible.
+An attack represents the risks you're trying to mitigate, the incident you're trying to handle, or the individuals you're hoping to include on the response. These decisions all have planning burdens that are helpful to identify as early as possible.
 - Does the attack actually need a lot of expertise and effort, or can you have simple recreations of an attack to discover? Are external parties even necessary?
 - Where should the attack begin in the kill chain? (IE, early: spear phishing, or late: lateral movement with domain admin)
 - What credentials / physical access / documentation are required to support the initiation of the attack? Who will provide them? Are there security implications that need to be followed up on later?
@@ -61,10 +61,11 @@ If you can foresee how disciplined your responders will behave, you can manipula
 - Who will bridge communications with the Red Team, if there are honest questions from the Blue Team? (For example: "We think we found a separate breach")
 - Who will document the Red Team's pain points as the Blue Team mitigates? ("You kept removing our beacons and it was hard to get back, we didn't expect you'd find them all at once!")
 - If Incident Response is not progressing in a timely manner, who or how will indicators be leaked to the Blue Team?
+  - Will this be done in a tabletop format?
 - Are short term mitigations / long term preventative measures being collected as part of your incident response?
 
 ### Red Team Reveal
-The Blue Team will have all kinds of questions for the red team, and keeping this relationship healthy is critical. The red team should be viewed as an invaluable sparring partner.
+The Blue Team will have all kinds of questions for the red team, and keeping this relationship healthy is critical. The red team should be viewed as an invaluable sparring partner. Better yet, a rabbit to chase.
 - Are the Red Team's actions during the attack phase very well documented and understood?
 - Has the incident response process missed any substantial Red Team actions?
 - Are there any IOC's or artifacts that are still beaconing or discoverable in the future?
