@@ -1,4 +1,4 @@
-# :fire: :fire_engine: Planning a Red Team exercise 
+# :fire: :fire_engine: Planning a Red Team exercise
 This document helps inform your red team plans by contrasting your opinions against the very specific method described in [Red Teams](https://medium.com/starting-up-security/red-teams-6faa8d95f602). This method expresses several biases to optimize for blue team value and enthusiasm instead of motivation by red team punishment.
 
 Review the questions below to test if your red team planning has been thoroughly thought out for your blue team's value.
@@ -55,7 +55,7 @@ An attack represents the risks you're trying to mitigate, the incident you're tr
 - Are the Red Team's methods going to be based in reality? Are they using methods that are not available to a realistic attacker?
 
 ### :rotating_light: Incident Response
-If you can foresee how disciplined your responders will behave, you can manipulate the response to either discover friction or enforce and encourage the correct behaviors.
+If you can foresee how mature your response process will be, you can manipulate the response for greater benefit. An immature response team can be heavily guided by the Game Master, or a mature response team can be left alone to identify friction points in coordination and communication.
 - Is there a specific coordination method or plan that incident response should follow? For instance, the agenda and method described in [Security Breach 101](https://medium.com/starting-up-security/security-breach-101-b0f7897c027c) or [An Incident Response Plan for Startups](https://github.com/magoo/Incident-Response-Plan/blob/master/EXAMPLE.md)
 - Will Incident Response need to come together naturally, so you can to weed out friction in its process?
 - Will Incident Response come together artificially to force the intended response as practice?
