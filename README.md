@@ -89,8 +89,8 @@ A high quality post mortem will inform months of roadmap'd security work, and ca
 ## :baby: Small Exercises
 You can keep an exercise small and with minimal involvement of others. Be creative.
 
-Simply have a team member simulate an incident that you think you could successfully respond to. For instance, you can install a piece of software that has auto-update functionality, and pretend it is malware. Then you'd "hunt" for the "C&C" which would just be its update beacon.
+Simply have a team member simulate an incident that you think you could successfully respond to. For instance, you can install a piece of software that has auto-update functionality, and pretend it is malware. Then you'd "hunt" for the "C&C" which would just be its update beacon. For instance, can you prove that it is isolated to this host, and not others?
 
-Or, have a team member make an "unauthorized change", and pull together an "incident" that proves they are guilty and did not make other changes.
+Or, have a team member make an "unauthorized change", and pull together an incident timeline that documents the event and what follow ups would matter.
 
-Just be sure to document your findings, your lessons, and your follow ups to present to others. Red teams are not valuable if their lessons are isolated.
+Just be sure to document your findings, your lessons, and your follow ups to present to others. Red teams are not valuable if their lessons are isolated, and they don't need to be complicated.
