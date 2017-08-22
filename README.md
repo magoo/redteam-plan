@@ -1,5 +1,5 @@
 # :fire: :fire_engine: Planning a Red Team exercise
-This document helps inform your red team plans by contrasting your plans against the very specific red team style described in [Red Teams](https://medium.com/starting-up-security/red-teams-6faa8d95f602). This method expresses several biases to optimize for blue team value and enthusiasm. It specifically avoids attempts to motivate by red team punishment.
+This document helps inform red team planning by contrasting against the very specific red team style described in [Red Teams](https://medium.com/starting-up-security/red-teams-6faa8d95f602). This method expresses several biases to optimize for blue team value and enthusiasm. It specifically avoids attempts to motivate by red team punishment.
 
 Review the questions below to test if your red team planning has been thoroughly thought out for your blue team's value.
 
