@@ -3,7 +3,24 @@ This document helps inform red team planning by contrasting against the very spe
 
 Review the questions below to test if your red team planning has been thoroughly thought out for your blue team's value.
 
-### :date: Time
+### :x: Negative motivations
+The following are common reasons to drive a red team exercise. These have damaging qualities to morale or team cohesion. An exercise may be the wrong tool for your goals.
+- Prove the insecurity of another organization
+- Display dominance over a group of people
+- Prove or make a point through shock and awe
+- Enumerate and discover as many vulnerabilities as possible
+- Test if simple detection mechanisms are working
+
+### :thumbsup: Stakeholders
+Nothing could be more wasteful than an exercise without any sponsorship or follow up from leadership or influencers. Make sure the learnings of an exercise are championed by an enthusiastic group of stakeholders. Make sure this group is informed and can generate momentum.
+- Set expectations and a known home / owner to drive outcomes of the exercise
+- Ensure there is openness to change, and have sponsorship lined up to drive the change.
+- Is the organization a willing participant in this exercise?
+- Would participants be open *any* calibration on risk, or a revisitation of their current roadmap?
+- Is there significant debt that would take precedence over any Red Team findings?
+- Will the Red Team's findings be so predictable that an exercise wasn't needed to begin with?
+
+### :date: Time estimations
 You can project the amount of time to allocate from this planning phase, to the end of a mitigation phase, or something in between. Time expectations are highly dependent on decisions made for each phase.
 
 - *Planning* (Weeks/Months): Planning the overall execution, filling in the gaps of this document.
