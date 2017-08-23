@@ -16,7 +16,7 @@ Nothing could be more wasteful than an exercise without any sponsorship or follo
 - Set expectations and a known home / owner to drive outcomes of the exercise
 - Ensure there is openness to change, and have sponsorship lined up to drive the change.
 - Is the organization a willing participant in this exercise?
-- Would participants be open *any* calibration on risk, or a revisitation of their current roadmap?
+- Would participants be open to *any* calibration on risk, or a revisitation of their current roadmap?
 - Is there significant debt that would take precedence over any Red Team findings?
 - Will the Red Team's findings be so predictable that an exercise wasn't needed to begin with?
 
